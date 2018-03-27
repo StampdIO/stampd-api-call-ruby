@@ -8,7 +8,7 @@ Visit [stampd.io](https;//stampd.io) to get your API credentials.
 
 - Install json. Run `gem install json`
 - Set the variables at the top of the file
-- Run `ruby _apitest.rb`
+- Run `ruby apitest.rb`
 
 ## Documentation
 
