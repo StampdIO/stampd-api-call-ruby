@@ -49,7 +49,7 @@ end
 
 uri = URI.parse(api_url_base)
 args = {requestedURL: '/hash',
-        session_id: login_json['session_id'],
+        sess_id: login_json['session_id'],
         hash: hash,
         blockchain: blockchain,
         # meta_emails: '',
@@ -75,7 +75,7 @@ puts post_json
 
 uri = URI.parse(api_url_base)
 args = {requestedURL: '/hash',
-        session_id: login_json['session_id'],
+        sess_id: login_json['session_id'],
         hash: hash,
         blockchain: blockchain
 }
