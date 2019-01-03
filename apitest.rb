@@ -91,4 +91,4 @@ puts get_json
 # post_json['message']
 # post_json['type']
 # post_json['code']
-# post_json['transactionID']
+# post_json['txid']
